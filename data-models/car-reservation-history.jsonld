@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "CarReservationHistory": "http://192.168.0.120:5000/myngsild/context#CarReservationHistory",
+    "reservation_start": {"@type": "DateTime", "@id": "http://192.168.0.120:5000/myngsild/context/dateStartReserv"},
+    "reservation_end": {"@type": "DateTime", "@id": "http://192.168.0.120:5000/myngsild/context/dateEndReserv"},
+    "state": {"@type": "String", "@id": "http://192.168.0.120:5000/myngsild/context/State"},
+    "distance": {"@type": "String", "@id": "http://192.168.0.120:5000/myngsild/context/Distance"},
+    "vehicle_id": {"@type": "String", "@id": "http://192.168.0.120:5000/myngsild/context/vehicleId"},
+    "modified": {"@type": "DateTime", "@id": "http://192.168.0.120:5000/myngsild/context/dateModified"},
+    "date_observerd": {"@type": "DateTime", "@id": "http://192.168.0.120:5000/myngsild/context/dateObserverd"},
+    "user_id": {"@type": "String", "@id": "http://192.168.0.120:5000/myngsild/context/userId"},
+    "utilization_start": {"@type": "DateTime", "@id": "http://192.168.0.120:5000/myngsild/context/dateUtilizationStart"},
+    "batterylevel_at_start": {"@type": "String", "@id": "http://192.168.0.120:5000/myngsild/context/dateUtilizationAtStart"},
+    "utilization_end": {"@type": "DateTime", "@id": "http://192.168.0.120:5000/myngsild/context/dateUtilizationEnd"},
+    "batterylevel_at_end": {"@type": "String", "@id": "http://192.168.0.120:5000/myngsild/context/batterylevelAtEnd"}
+  }
+}

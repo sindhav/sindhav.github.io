@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "RentalBikeStation": "http://192.168.0.120:5000/myngsild/context#RentalBikeStation",
+    "name": "https://schema.org/name",
+    "temperature": {"@type": "String", "@id": "http://192.168.0.120:5000/myngsild/context/temperature"},
+    "temperature_observed": {"@type": "DateTime", "@id": "http://192.168.0.120:5000/myngsild/context/temperature_observed"},
+    "stationType": {"@type": "String", "@id": "http://192.168.0.120:5000/myngsild/context/stationType"},
+    "emptyCnt": {"@type": "String", "@id": "http://192.168.0.120:5000/myngsild/context/emptyCnt"},
+    "ebikeCnt": {"@type": "String", "@id": "http://192.168.0.120:5000/myngsild/context/ebikeCnt"},
+    "offline": {"@type": "String", "@id": "http://192.168.0.120:5000/myngsild/context/offline"},
+    "boxOfflineCnt": {"@type": "String", "@id": "http://192.168.0.120:5000/myngsild/context/boxOfflineCnt"},
+    "boxErrCnt": {"@type": "String", "@id": "http://192.168.0.120:5000/myngsild/context/boxErrCnt"},
+    "boxAvailCnt": {"@type": "String", "@id": "http://192.168.0.120:5000/myngsild/context/boxAvailCnt"},
+    "bikeCnt": {"@type": "String", "@id": "http://192.168.0.120:5000/myngsild/context/bikeCnt"},
+    "ip": {"@type": "String", "@id": "http://192.168.0.120:5000/myngsild/context/ip"},
+    "dateObserverd": {"@type": "DateTime", "@id": "http://192.168.0.120:5000/myngsild/context/dateObserverd"},
+    "location": "http://uri.etsi.org/ngsi-ld/location"
+  }
+}
